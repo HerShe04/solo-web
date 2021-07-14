@@ -29,6 +29,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 4444;
 }
 
 .line {
@@ -126,30 +127,17 @@ Home-content
   font-size: large;
   text-align: center;
 }
-#home-btn {
-  position: fixed;
-  top: 62%;
-  left: 49%;
-  transform: translate(-50%, -50%);
-  border: 2px solid rgb(190, 190, 190);
-  font-family: "Raleway";
-  text-transform: uppercase;
-
-  padding: 20px 20px;
-  min-width: 180px;
-  margin: 10px;
-  cursor: pointer;
-  font-weight: bolder;
-  z-index: 3;
+#hero-btn {
+  text-align: center;
+  line-height: 3em;
 }
-#home-btn a {
+#hero-btn a {
+  border: 2px solid #fff;
   text-decoration: none;
-  color: white;
-  padding-left: 20px;
+  padding: 10px 30px;
+  color: #fff;
 }
-#home-btn a spam {
-  color: rgb(26, 235, 26);
-}
-#home-btn:hover {
+#hero-btn:hover {
+  background: black;
   color: black;
 }
