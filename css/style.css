@@ -96,7 +96,7 @@ p {
   z-index: -1;
 }
 #home-overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -127,16 +127,29 @@ Home-content
   text-align: center;
 }
 #home-btn {
-  position: absolute;
-  top: 60%;
-  left: 50%;
+  position: fixed;
+  top: 62%;
+  left: 49%;
   transform: translate(-50%, -50%);
-  border: 2px solid #000;
+  border: 2px solid rgb(190, 190, 190);
   font-family: "Raleway";
   text-transform: uppercase;
-  padding: 12px 20px;
-  min-width: 200px;
+
+  padding: 20px 20px;
+  min-width: 180px;
   margin: 10px;
   cursor: pointer;
-  z-index: -1;
+  font-weight: bolder;
+  z-index: 3;
+}
+#home-btn a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+#home-btn a spam {
+  color: rgb(26, 235, 26);
+}
+#home-btn:hover {
+  color: black;
 }
