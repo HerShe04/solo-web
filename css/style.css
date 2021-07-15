@@ -132,12 +132,18 @@ Home-content
   line-height: 3em;
 }
 #hero-btn a {
-  border: 2px solid #fff;
+  position: relative;
+  border: 2px solid rgb(26, 235, 26);
   text-decoration: none;
+  text-transform: uppercase;
   padding: 10px 30px;
+  background: transparent;
+  transition: 0.5s ease;
   color: #fff;
 }
-#hero-btn:hover {
-  background: black;
-  color: black;
+#hero-btn :hover {
+  color: rgb(0, 0, 0);
+  background: rgb(204, 204, 204);
+  transition: 0.5s ease;
+  border: rgb(26, 235, 26);
 }
