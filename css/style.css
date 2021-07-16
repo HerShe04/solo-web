@@ -25,7 +25,9 @@ p {
   height: 100vh;
   width: 100%;
   position: fixed;
-  background: rgb(184, 182, 182);
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,7 +122,7 @@ Home-content
   font-weight: bolder;
 }
 #home-heading-1 spam {
-  color: rgb(26, 235, 26);
+  color: #7ee8fa;
 }
 #home-text {
   line-height: 2.5em;
@@ -133,17 +135,25 @@ Home-content
 }
 #hero-btn a {
   position: relative;
-  border: 2px solid rgb(26, 235, 26);
+  border: 2px solid #7ee8fa;
   text-decoration: none;
   text-transform: uppercase;
   padding: 10px 30px;
   background: transparent;
   transition: 0.5s ease;
   color: #fff;
+  font-weight: bold;
+}
+#hero-btn a spam {
+  color: #7ee8fa;
 }
 #hero-btn :hover {
-  color: rgb(0, 0, 0);
-  background: rgb(204, 204, 204);
+  color: #7ee8fa;
+  background: rgb(0, 0, 0);
   transition: 0.5s ease;
-  border: rgb(26, 235, 26);
+}
+#hero-btn :hover spam {
+  color: #ffffff;
+  background: transparent;
+  transition: 0.5s ease;
 }
