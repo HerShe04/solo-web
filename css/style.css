@@ -235,4 +235,7 @@ Home-content
   position: relative;
   left: 300px;
   top: -100px;
+  z-index: -1;
 }
+
+/*********************overfloww in preloader to fix later***************************/
