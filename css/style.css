@@ -2,6 +2,7 @@
 html,
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 body {
   color: white;
@@ -25,13 +26,11 @@ p {
   height: 100vh;
   width: 100%;
   position: fixed;
-  background-color: #b1ade2;
-  background-image: linear-gradient(315deg, #b1ade2 0%, #7ddff8 74%);
-
+  background-color: rgb(199, 199, 199);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+  z-index: 99999;
 }
 
 .line {
@@ -195,4 +194,45 @@ Home-content
     opacity: 0;
     transform: rotate(45deg) translate(20px, 20px);
   }
+}
+.second-page {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  background: rgb(199, 199, 199);
+  z-index: -1;
+}
+.vertical-text h2 {
+  font-size: large;
+  writing-mode: vertical-lr;
+
+  font: large;
+  color: black;
+  padding: 167px 130px;
+  word-spacing: 2px;
+
+  transform: rotate(180deg);
+}
+.about-left h3 {
+  position: absolute;
+  top: 160px;
+  margin: 0;
+  left: 180px;
+
+  color: rgb(0, 0, 0);
+  letter-spacing: 0.6px;
+}
+.about-mid p {
+  position: absolute;
+  padding-top: 126px;
+  padding-right: 100px;
+  left: 800px;
+  top: 30px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.about-image {
+  position: relative;
+  left: 300px;
+  top: -100px;
 }
